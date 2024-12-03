@@ -4,7 +4,7 @@ Tags: anchor.fm, podcast, embed, spotify
 Requires at least: 4.8
 Tested up to: 6.6
 Requires PHP: 7.4
-Stable tag: 2.1.11
+Stable tag: 2.1.12
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -129,3 +129,6 @@ Overrides values set on the settings page:
 
 = 2.1.11 =
 * Fix XSS vulnerability for contributor role
+
+= 2.1.12 =
+* Add creators.spotify.com to allowed domains

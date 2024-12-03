@@ -46,7 +46,7 @@ class Main {
     // Function to validate allowed domains and sanitize URL
     public function validate_and_sanitize_url($url) {
         $parsed_url = parse_url($url);
-        $allowed_domains = ['podcasters.spotify.com', 'anchor.fm'];
+        $allowed_domains = ['podcasters.spotify.com', 'anchor.fm', 'creators.spotify.com'];
         if (in_array($parsed_url['host'], $allowed_domains)) {
             return esc_url(sanitize_url($url));
         }
